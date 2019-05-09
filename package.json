@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Web API Blog Project",
   "main": "index.js",
+  "test" : {
+    "server": "nodemon index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js"
